@@ -8,8 +8,9 @@ steps:
   commands:
   - echo hello
   - echo world
+  - echo "DRONE_BUILD_EVENT=${DRONE_BUILD_EVENT}"
 ---
 kind: signature
-hmac: 2e287cc5c522d6dd31a62e59b8d5361ebe31229b42caf625f7d7fbc9314a19de
+hmac: 9076ca7efa44f4d1406b2abb16e5a6f5c5f4582d7b144833f737421071035b9a
 
 ...
